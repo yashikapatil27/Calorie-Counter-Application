@@ -1,7 +1,7 @@
 # Calorie Counter Application
-CIS552- Project Work for Summer 2024: Calorie Counter Application using MongoDB for food tracking and caloric analysis.
+CIS552 - Project Work for Summer 2024: Calorie Counter Application using **MongoDB** for food tracking and caloric analysis.
 
-This repository contains the source code and project report for a Calorie Counter Application which utilizes MongoDB for efficient data management, allowing users to track food intake, log calories, and gain insights into their nutritional consumption patterns.
+This repository contains the source code and project report for a Calorie Counter Application which utilizes **MongoDB** for efficient data management, allowing users to track food intake, log calories, and gain insights into their nutritional consumption patterns. The application leverages **PyMongo** for CRUD (Create, Read, Update, Delete) operations on the MongoDB database.
 
 ---
 
@@ -12,6 +12,7 @@ This repository contains the source code and project report for a Calorie Counte
 4. [Installation](#installation)
 5. [Database Schema](#database-schema)
 6. [References](#references)
+
 ---
 
 ## Project Overview
@@ -20,7 +21,7 @@ This project focuses on creating a calorie counter application that provides use
 - Track caloric intake over time
 - Receive nutritional breakdowns based on their logs
 
-The primary goal is to offer a simple, intuitive tool for personal health management by storing and retrieving dietary data from a MongoDB database.
+The primary goal is to offer a simple, intuitive tool for personal health management by storing and retrieving dietary data from a **MongoDB** database using **PyMongo** for efficient data handling.
 
 ## Features
 - **User Registration**: Users can create accounts with a username and password, ensuring secure access to their meal data.
@@ -44,24 +45,24 @@ The primary goal is to offer a simple, intuitive tool for personal health manage
 - **Python**: The primary programming language used for the application logic and backend operations.
 - **Kivy**: A Python framework for developing multi-touch applications, used for creating the graphical user interface (GUI) of the application.
 - **MongoDB**: A NoSQL database for storing user information, meal entries, and food database, providing efficient data retrieval and storage.
+- **PyMongo**: The official MongoDB driver for Python, utilized for performing CRUD operations in the application.
 - **BSON**: Binary JSON format used for data storage and retrieval in MongoDB.
-- **hashlib**: Python library for secure password hashing using SHA-256 algorithm.
+- **hashlib**: Python library for secure password hashing using the SHA-256 algorithm.
 - **datetime**: Python module for handling date and time, used to manage meal entries and calculate total calories consumed on specific dates.
-
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   ```
+```bash
+git clone https://github.com/yashikapatil27/Calorie-Counter-Application
+```
 2. Install the required Python packages:
-  ```bash
-  pip install -r requirements.txt
-  ```
+```bash
+pip install -r requirements.txt
+```
 3. To start the application, run:
-  ```bash
-  python CIS552-Code.py
-  ```
+```bash
+python CIS552-Code.py
+```
 4. Follow the on-screen instructions to register, log in, and begin tracking meals.
 
 ## Report
@@ -78,11 +79,5 @@ For a detailed overview of the project, please refer to the [Project Report](CIS
 - **MongoDB Documentation**: [MongoDB Official Documentation](https://docs.mongodb.com/)
 
 - **PyMongo Documentation**: [PyMongo Official Documentation](https://pymongo.readthedocs.io/en/stable/)  
-
-- **Python Documentation**: [Python Official Documentation](https://docs.python.org/3/)  
-
-- **NumPy Documentation**: [NumPy Official Documentation](https://numpy.org/doc/stable/)  
-
-- **Pandas Documentation**: [Pandas Official Documentation](https://pandas.pydata.org/docs/)  
 
 - **Hashlib Documentation**: [Hashlib Official Documentation](https://docs.python.org/3/library/hashlib.html)
