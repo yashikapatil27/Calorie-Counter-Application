@@ -10,11 +10,8 @@ This repository contains the source code and project report for a Calorie Counte
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Database Schema](#database-schema)
-7. [Report](#report)
-8. [Acknowledgements](#acknowledgements)
-
+5. [Database Schema](#database-schema)
+6. [References](#references)
 ---
 
 ## Project Overview
@@ -26,22 +23,6 @@ This project focuses on creating a calorie counter application that provides use
 The primary goal is to offer a simple, intuitive tool for personal health management by storing and retrieving dietary data from a MongoDB database.
 
 ## Features
-- **User Registration**: Simple registration and authentication to maintain personalized logs.
-- **Food Log**: Add and manage food entries with calorie counts and nutritional values.
-- **Caloric Analysis**: Calculate and analyze daily, weekly, and monthly caloric intake.
-- **MongoDB Backend**: Efficient data storage and retrieval using MongoDB to support scalability.
-
-## Technologies Used
-
-- **Python**: The primary programming language used for the application logic and backend operations.
-- **Kivy**: A Python framework for developing multi-touch applications, used for creating the graphical user interface (GUI) of the application.
-- **MongoDB**: A NoSQL database for storing user information, meal entries, and food database, providing efficient data retrieval and storage.
-- **BSON**: Binary JSON format used for data storage and retrieval in MongoDB.
-- **hashlib**: Python library for secure password hashing using SHA-256 algorithm.
-- **datetime**: Python module for handling date and time, used to manage meal entries and calculate total calories consumed on specific dates.
-
-## Features
-
 - **User Registration**: Users can create accounts with a username and password, ensuring secure access to their meal data.
 - **User Login**: Allows registered users to log in and access their meal tracking functionalities.
 - **Meal Tracking**:
@@ -57,6 +38,16 @@ The primary goal is to offer a simple, intuitive tool for personal health manage
   - **Add Food from Database**: Users can easily log food items from the search results into their meal logs.
 - **Responsive UI**: The application features a user-friendly interface with a responsive layout that adjusts to various screen sizes.
 - **Visual Feedback**: Clear messages and visual elements provide users with immediate feedback on their actions (e.g., meal added, user logged in).
+
+## Technologies Used
+
+- **Python**: The primary programming language used for the application logic and backend operations.
+- **Kivy**: A Python framework for developing multi-touch applications, used for creating the graphical user interface (GUI) of the application.
+- **MongoDB**: A NoSQL database for storing user information, meal entries, and food database, providing efficient data retrieval and storage.
+- **BSON**: Binary JSON format used for data storage and retrieval in MongoDB.
+- **hashlib**: Python library for secure password hashing using SHA-256 algorithm.
+- **datetime**: Python module for handling date and time, used to manage meal entries and calculate total calories consumed on specific dates.
+
 
 ## Installation
 1. Clone the repository:
@@ -76,6 +67,9 @@ The primary goal is to offer a simple, intuitive tool for personal health manage
 ## Report
 For a detailed overview of the project, please refer to the [Project Report](CIS552-Report.pdf).
 
+## Database Schema
+- **Users Collection**: Contains user information such as username, password (hashed), and meal entries.
+- **Meals Collection**: Logs meal entries with fields for meal name, calorie count, and timestamp.
 
 ## References
 
